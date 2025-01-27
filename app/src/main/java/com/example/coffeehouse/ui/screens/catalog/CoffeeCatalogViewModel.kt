@@ -36,6 +36,7 @@ class CoffeeCatalogViewModel(
                 )
             } catch (e: Exception) {
                 coffeeCatalogUiState = if (e is HttpException && e.code() == 401) {
+                    userRepository.logout()
                     CoffeeCatalogUiState.LoggedOut
                 } else {
                     CoffeeCatalogUiState.Error
