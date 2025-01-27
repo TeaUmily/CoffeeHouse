@@ -62,8 +62,8 @@ fun RegisterScreen(
 
     LaunchedEffect(registerUiState) {
         if (registerUiState.isUserRegistered) {
-            snackbarHostState.showSnackbar("Successfully registered")
             currentOnUserRegister()
+            snackbarHostState.showSnackbar("Successfully registered")
         }
     }
 
