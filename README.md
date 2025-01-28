@@ -1,4 +1,4 @@
-# ☕ CoffeeHouse - Android App for Networking Concepts
+# ☕ CoffeeHouse - Android App
 
 **CoffeeHouse** is an Android app built to demonstrate networking concepts like API calls, authentication, and data handling. It’s designed for educational purposes to help developers understand token management, UI design, and networking in Android.
 
